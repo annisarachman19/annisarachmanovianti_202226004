@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:  #9b59b6;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .contact-image {
+            max-width: 200px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kontak Kami</h1>
+        <img class="contact-image" src="Kontak.JPG" alt="Foto Kontak">
+        <p>Silakan hubungi kami menggunakan formulir di bawah ini:</p>
+        <form action="#" method="post">
+            <input type="text" name="nama" placeholder="Nama" required>
+            <input type="text" name="email" placeholder="Email" required>
+            <textarea name="pesan" placeholder="Pesan" rows="5" required></textarea>
+            <input type="submit" value="Kirim Pesan">
+        </form>
+    </div>
+</body>
+</html>
